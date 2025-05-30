@@ -63,6 +63,7 @@ img:hover{
 .fila img {
   width: 300px;
   border-radius: 8px;
+ margin-top: 20px;
 
 }
 
@@ -112,5 +113,13 @@ footer p{
   margin: 0;
   padding: 0;
 }
+
+
+
+    ul li{
+        margin-bottom: 8px;
+        text-align: center;
+
+    }
 
 

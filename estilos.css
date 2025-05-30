@@ -2,6 +2,115 @@
     font-family: 'Hollow' ;
     src: url(fuente/GoudyTrajan-Regular.otf);
 }
-body{
-    font-family:  sans-serif;
+h1,h2,h3{
+    font-family: Hollow,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 10px;
+      letter-spacing: 2px;
 }
+h1 {
+  font-size: 36px;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+body{
+    font-family: 'EB Garamond', serif;
+    background-color: black;
+    color: white;
+      font-size: 20px; /* Tamaño cómodo para leer */
+  line-height: 1.6;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+p {
+  
+  font-family: 'EB Garamond', serif;
+  text-align: justify;
+   font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+.dlc p{
+  text-align: center;
+}
+
+
+
+img{
+width: 100%;
+height: auto;
+position: relative;
+max-width: 400px;
+display: block;
+margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+ transition: transform 0.3s ease;
+}
+img:hover{
+   transform: scale(1.1);
+}
+.fila {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.fila img {
+  width: 300px;
+  border-radius: 8px;
+
+}
+
+.combate{
+      display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+ 
+}
+
+
+
+.exploracion{
+    display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 10px;
+ 
+
+}
+
+
+.progreso{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 10px;
+
+}
+
+
+footer {
+  width: 100%;
+  background-color: #ff0000; /* o el color que desees */
+  color: white;
+  text-align: center;
+  padding: 20px 0;  
+  margin-top: 20px;
+}
+footer p{
+  text-align: center;
+}
+ html {
+  margin: 0;
+  padding: 0;
+}
+
+

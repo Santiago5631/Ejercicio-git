@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Hollow' ;
+    src: url(fuente/GoudyTrajan-Regular.otf);
+}
+body{
+    font-family:  sans-serif;
+}

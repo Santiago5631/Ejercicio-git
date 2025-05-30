@@ -1,81 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hollow Knight:EL reino de Hollownest </title>
-    <h1>Hollow Knight:EL reino de Hollownest</h1>
-    <img class="logo" src="imagenes/logo.jpg" alt="">
-    <link rel="stylesheet" href="estilos.css">
+    <title>Hollow Knight</title>
 </head>
-
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+    }
+    header{
+        background-color: black;
+        text-align: center;
+        padding: 20px;
+    }
+    h1{
+        margin-top: 10px;
+    }
+    nav{
+        background-color: rgb(119, 113, 113);
+        text-align: center;
+        padding: 10px;
+    }
+    nav ul{
+        list-style-type: none ;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li{
+        display: inline;
+        margin: 0 15 px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav ul li a;:hover{
+        color: rgb(14, 213, 224);
+    }
+    main{
+        padding: 20px;
+    }
+    section{
+        margin-bottom: 30px;
+    }
+    h2{
+        border-bottom: 2px solid rgb(92, 91, 91);
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+    ul li{
+        margin-bottom: 8px;
+    }
+    footer{
+        background-color: black;
+        text-align: center;
+        padding: 15px;
+        font-size: 0.9em;
+    }
+    .galeria{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap; 
+     gap: 15px;
+     margin-bottom: 15px;  
+    }
+    .galeria img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+</style>
 <body>
-    <div class="amuletos">
-        <h2>Amuletos (Charms)</h2>
-        <p>Los amuletos son mejoras especiales que el jugador puede equipar para modificar habilidades y estilo de
-            juego. Cada uno ocupa uno o más espacios de equipamiento (ranuras). </p>
-        <h3> Algunos amuletos destacados:</h3>
+    <nav>
         <ul>
-            <li>Ataque rápido (Quick Slash): Permite atacar más rápido con el aguijón </li>
-            <li>Piedra del chamán (Shaman Stone): Aumenta el daño de los hechizos.</li>
-            <li>Canción de larvas (Grubsong): Obtienes Alma al recibir daño.</li>
-            <li>Corazón inquebrantable (Unbreakable Heart): Aumenta la salud máxima.</li>
-            <li>Maestro de las embestidas (Dashmaster): Mejora la velocidad de deslizamiento.</li>
+            <li><a href="#personajes">Personajes</a></li>
+            <li><a href="#zonas">Zonas</a></li>
+            <li><a href="#jefes">Jefes</a></li>
         </ul>
-        <h3>Todos los amuletos:</h3>
-        <img src="imagenes/what-charm-do-you-consider-to-be-most-underrated-overrated-v0-mj923xssz2ae1.png" alt="">
-    </div>
-    <div>
-        <h2>Hechizos </h2>
-        <p>Los hechizos consumen Alma y ofrecen ataques mágicos o habilidades útiles. Se obtienen al avanzar en el
-            juego.</p>
-        <h3>Hechizos principales</h3>
-        <ul>
-            <li>Espíritu vengativo / Alma de la sombra: Lanza un proyectil de Alma hacia adelante.</li>
-            <img src="imagenes/espirituvengativo.png" alt="">
-            <li>Zambullida desolada / Oscuridad descendente:Ataque de impacto hacia el suelo que daña a enemigos
-                cercanos.</li>
-            <img src="imagenes/caidadecendente.png" alt="">
-            <li>Lamentos aulladores / Grito del abismo: Emite un grito ascendente de Alma con gran daño mágico.</li>
-            <img src="imagenes/aullladores.png" alt="">
-        </ul>
-    </div>
-    <div>
-            <h2>DLCs y contenido adicional</h2>
-            <p>Hollow Knight recibió cuatro actualizaciones gratuitas:</p>
+    </nav>
+    <main>
+        <section id="personajes">
+            <h2>Perosnajes Principales y Secundarios</h2>
+            <div class="galeria">
+            <img src="img3/Personajes/1.jpg"  width="150">
+            <img src="img3/Personajes/2.jpg"  width="150">
+            <img src="img3/Personajes/3.jpg"  width="150">
+            <img src="img3/Personajes/4.jpg"  width="150">
+            </div>
             <ul>
-                <li>
-                    <h3>Sueños ocultos (Hidden Dreams)</h3>
-                    <p>Añade nuevos jefes, mejoras y un sistema de viaje rápido.</p>
-                    <img src="imagenes/sueñosocultos.png" alt="">
-                </li>
-                <li>
-                    <h3>La Tropa Grimm (The Grimm Troupe)</h3>
-                   <p> Introduce la misión del Ritual Carmesí, nuevos amuletos y el jefe Rey Pesadilla Grimm.</p>
-                   <img src="imagenes/dlcgrim.png" alt="">
-                </li>
-                <li>
-                    <h3>Sangre vital (Lifeblood)</h3>
-                    <p>   Optimización del juego, mejoras visuales y rediseño del jefe Radiance.</p>
-                    <img src="imagenes/sagrevital.png" alt="">
-                </li>
-                <li>
-                   <h3> Maestro de los Dioses (Godmaster)</h3>
-                     <p>Acceso al Panteón de Hallownest, combates contra todos los jefes, finales secretos y desafíos extremos.</p>
-                     <img src="imagenes/panteon.png" alt="">
-                </li>
+                <li><strong>El caballero:</strong>Protagonista silencioso.</li>
+                <li><strong>Hornet:</strong>Guardian agil, futura de Silksong.</li>
+                <li><strong>Zote:</strong>Guerrero comico y egocentrico.</li>
+                <li><strong>Los Soñadores:</strong>Monomon, Herrah y Lurien.</li>
             </ul>
-        </div>
-    <footer class="footer">
-        <img src="imagenes/Team_Cherry_Logo.png" alt="">
-        <p><strong>Sitio fan no oficial de Hollow Knight</strong></p>
-        <p>Desarrollado por amantes del Reino de Hallownest.</p>
-        <p><strong>Hollow Knight</strong> es un videojuego creado por <strong>Team Cherry</strong>, un pequeño estudio
-            independiente con sede en Australia. Conformado inicialmente por tres personas, Team Cherry ha sido
-            reconocido por su dedicación artística, su diseño meticuloso y su pasión por crear mundos inmersivos.</p>
-        <p>© 2025 | Para los exploradores del Vacío.</p>
-    </footer>
+        </section>
+        <section id="zonas">
+            <h2>Zonas del Juego</h2>
+            <div class="galeria">
+            <img src="img3/Zonas/5.jpg"  width="150">
+            <img src="img3/Zonas/6.jpg"  width="150">
+            <img src="img3/Zonas/7.jpg"  width="150">
+            <img src="img3/Zonas/8.jpg"  width="150">
+            <img src="img3/Zonas/9.jpg"  width="150">
+            </div>
+            <ul>
+                <li>Greenpath</li>
+                <li>ciudad de las Lagrimas</li>
+                <li>Pico de Cristal</li>
+                <li>Nido Profundo</li>
+                <li>Cañon Nublado</li>
+            </ul>
+        </section>
+        <section id="jefes">
+            <h2>Enemigos y Jefes Importantes</h2>
+            <div class="galeria">
+            <img src="img3/Jefes/10.jpg" width="150">
+            <img src="img3/Jefes/11.jpg" width="150">
+            <img src="img3/Jefes/12.jpg" width="150">
+            <img src="img3/Jefes/13.jpg" width="150">
+            <img src="img3/Jefes/14.jpg" width="150">
+            </div>
+            <ul>
+                <li><strong>Radiance:</strong>Entidad y jefa final del juego.</li>
+                <li><strong>Hollow Knight:</strong>Portador original.</li>
+                <li><strong>Nightmare King Grimm:</strong>Jefe opcional y muy desafiante.</li>
+                <li><strong>Nosk:</strong>Criatura que adopta tu forma.</li>
+                <li><strong>Mantis Lords:</strong>Desafio honorable en Greenpath.</li>
+            </ul>
+        </section>
+    </main>
 </body>
-
 </html>
